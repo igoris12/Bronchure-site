@@ -6,3 +6,45 @@
 /* components */
 
 /* custom */
+
+/* header start */
+header {
+  background-color: red;
+}
+/* header end */
+
+/* info start */
+.infoContainer {
+  background-color: rgb(121, 44, 44);
+}
+
+.infoContainer .leftColume {
+}
+
+.infoContainer .rightColume {
+}
+/* info end */
+
+/* carousel start */
+.carousel {
+  background-color: rgb(0, 255, 128);
+}
+/* carousel end */
+
+/* header start */
+.benefits {
+  background-color: rgb(76, 0, 255);
+}
+/* header end */
+
+/*work start */
+.workProces {
+  background-color: rgb(179, 255, 0);
+}
+/*work  end */
+
+/* footer start */
+.footer {
+  background-color: rgb(0, 225, 255);
+}
+/* footer end */
