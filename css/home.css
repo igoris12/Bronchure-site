@@ -1,8 +1,8 @@
 /* basic */
+@import './basic/reset.css';
 @import './basic/layout.css';
 
 /* 3rd-party */
-@import './3rd-party/font-awesome.min.css';
 /* components */
 
 /* custom */
@@ -11,6 +11,27 @@
 header {
   background-color: red;
 }
+.header .logo {
+  background-color: bisque;
+}
+
+.header nav {
+  background-color: rgb(255, 230, 0);
+  text-align: right;
+}
+
+.header nav a {
+  font-size: 25px;
+  margin-right: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media (max-width: 1050px) {
+  .header nav a {
+    font-size: 15px;
+  }
+}
+
 /* header end */
 
 /* info start */
