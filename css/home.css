@@ -10,14 +10,22 @@
 /* header start */
 header {
   background-color: red;
+  height: 80px;
 }
 .header .logo {
-  background-color: bisque;
+  width: 200px;
+  height: 80px;
+  display: inline-block;
+  object-fit: cover;
+  margin-left: 30px;
 }
 
 .header nav {
   background-color: rgb(255, 230, 0);
   text-align: right;
+  display: inline-block;
+  float: right;
+  margin-top: 30px;
 }
 
 .header nav a {
@@ -26,9 +34,35 @@ header {
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+.header .taggleHeader {
+  display: inline-block;
+  display: none;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.header .taggleHeader span {
+  background: black;
+  width: 30px;
+  height: 4px;
+  margin-bottom: 5px;
+  display: block;
+}
+
 @media (max-width: 1050px) {
   .header nav a {
     font-size: 15px;
+  }
+}
+
+@media (max-width: 700px) {
+  .header nav a {
+    display: none;
+  }
+
+  .header .taggleHeader {
+    display: inline-block;
+    display: inline-block;
   }
 }
 
@@ -40,9 +74,17 @@ header {
 }
 
 .infoContainer .leftColume {
+  margin-bottom: 30px;
+  background-color: blanchedalmond;
+}
+
+.infoContainer p {
+  text-overflow: ellipsis;
+  word-break: break-word;
 }
 
 .infoContainer .rightColume {
+  background-color: aqua;
 }
 /* info end */
 
