@@ -74,9 +74,17 @@ header {
 }
 
 .infoContainer .leftColume {
+  margin-bottom: 30px;
+  background-color: blanchedalmond;
+}
+
+.infoContainer p {
+  text-overflow: ellipsis;
+  word-break: break-word;
 }
 
 .infoContainer .rightColume {
+  background-color: aqua;
 }
 /* info end */
 
