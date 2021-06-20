@@ -4,8 +4,17 @@
 
 /* 3rd-party */
 /* components */
-
+@import './component/benefint.css';
 /* custom */
+
+body {
+  background: rgb(93, 85, 85);
+  background: linear-gradient(
+    0deg,
+    rgba(93, 85, 85, 1) 23%,
+    rgba(35, 33, 46, 1) 70%
+  );
+}
 
 /* header start */
 header {
@@ -62,7 +71,6 @@ header {
 
   .header .taggleHeader {
     display: inline-block;
-    display: inline-block;
   }
 }
 
@@ -70,21 +78,37 @@ header {
 
 /* info start */
 .infoContainer {
-  background-color: rgb(121, 44, 44);
+  word-break: break-word;
 }
 
 .infoContainer .leftColume {
   margin-bottom: 30px;
-  background-color: blanchedalmond;
 }
 
-.infoContainer p {
-  text-overflow: ellipsis;
+.infoContainer .leftColume span {
+  font-size: larger;
+  font-weight: 700;
+  font-size: 25px;
+  color: beige;
   word-break: break-word;
 }
 
-.infoContainer .rightColume {
-  background-color: aqua;
+.infoContainer p {
+  font-size: 19px;
+  color: beige;
+  word-break: break-word;
+}
+
+.infoContainer .rightColume p {
+  font-size: 25px;
+  color: beige;
+  word-break: break-word;
+}
+
+.infoContainer .rightColume i {
+  font-size: 25px;
+  color: beige;
+  word-break: break-word;
 }
 /* info end */
 
@@ -96,7 +120,6 @@ header {
 
 /* header start */
 .benefits {
-  background-color: rgb(76, 0, 255);
 }
 /* header end */
 
