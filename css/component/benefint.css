@@ -1,0 +1,9 @@
+.benefits {
+  text-align: center;
+}
+
+.benefits > div div {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-bottom: 30px;
+}
