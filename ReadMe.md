@@ -19,7 +19,3 @@ Site published at https://igoris12.github.io/Bronchure-site/
 ## Authors
 
 [Igoris](https://github.com/igoris12)
-
-## Authors
-
-[Igoris](https://github.com/igoris12)
