@@ -20,7 +20,7 @@ const Data = {
 
         },
         {
-            img: "",
+            img: "Standardised.png",
             title: "Standardised",
             description: "Ready-made “plug & play“ solution for companies that already have press brakes."
 
