@@ -14,8 +14,13 @@
   border-radius: 20px;
   box-shadow: 0 4px 12px #0002;
   width: 100%;
-  background-color: white;
+  background-color: rgb(75, 72, 72);
   word-break: break-word;
+  box-shadow: 1px 1px 5px rgb(88, 84, 84);
+}
+
+.benefits .item:hover {
+  box-shadow: 1px 1px 11px gray;
 }
 
 .benefits .item > .icon {
@@ -27,12 +32,13 @@
 
 .benefits .item > .title {
   font-size: 24px;
+  color: white;
 }
 
 .benefits .item > .description {
   font-size: 17px;
   line-height: 25px;
-  color: #777;
+  color: white;
   word-break: break-word;
 }
 
