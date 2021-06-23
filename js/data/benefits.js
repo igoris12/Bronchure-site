@@ -1,4 +1,4 @@
-const Data = {
+const data = {
     imgPath: "./img/benefints/",
     list: [
         {
@@ -41,3 +41,5 @@ const Data = {
     ]
 
 }
+
+export { data };
