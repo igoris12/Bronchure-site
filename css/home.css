@@ -5,6 +5,7 @@
 /* 3rd-party */
 /* components */
 @import './component/benefint.css';
+@import './component/footer.css';
 /* custom */
 
 body {
@@ -130,6 +131,5 @@ header {
 
 /* footer start */
 .footer {
-  background-color: rgb(0, 225, 255);
 }
 /* footer end */

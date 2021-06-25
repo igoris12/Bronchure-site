@@ -26,7 +26,7 @@ const data = {
 
         },
         {
-            img: "Mobile.png",
+            img: "speed.png",
             title: "Speed",
             description: "Robots don’t get distracted or need to take breaks. They don’t request vacation time or ask to leave an hour early."
 
