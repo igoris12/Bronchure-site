@@ -6,6 +6,7 @@
 /* components */
 @import './component/benefint.css';
 @import './component/footer.css';
+@import './component/workProces.css';
 /* custom */
 
 body {
@@ -124,7 +125,7 @@ header {
 /* header end */
 
 /*work start */
-.workProces {
+.workProcess {
   background-color: rgb(179, 255, 0);
 }
 /*work  end */
