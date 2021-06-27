@@ -1,6 +1,57 @@
 .workProcess {
 }
 
+.workProcess .row {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
 .workProcess .item {
   border: 1px solid black;
+  width: 100%;
+  padding: 30px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+
+.workProcess .gallery1 {
+  background-image: url(../../img/workProcess/call.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.workProcess .gallery2 {
+  background-image: url(../../img/workProcess/meeting.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.workProcess .gallery3 {
+  background-image: url(../../img/workProcess/work.png);
+  background-size: cover;
+  background-position: center;
+}
+
+.workProcess .back {
+  opacity: 0.5;
+}
+
+.workProcess .item h3 {
+  color: white;
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.workProcess .item strong {
+  cursor: pointer;
+}
+
+.workProcess .item p {
+  word-break: break-word;
+  color: white;
+  font-size: larger;
 }
