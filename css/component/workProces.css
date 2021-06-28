@@ -37,12 +37,17 @@
 }
 
 .workProcess .back {
-  opacity: 0.5;
+  background: rgba(17, 15, 15, 0.8);
+  transition: 0.5s;
+}
+
+.workProcess .back:hover {
+  background: rgba(17, 15, 15, 0.5);
+  box-shadow: 0px 0px 5px 6px white;
 }
 
 .workProcess .item h3 {
   color: white;
-
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -54,4 +59,11 @@
   word-break: break-word;
   color: white;
   font-size: larger;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+.workProcess .item p:hover {
+  display: inline-block;
 }
