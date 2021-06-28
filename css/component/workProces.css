@@ -16,6 +16,7 @@
   flex-direction: column;
   gap: 20px;
   justify-content: center;
+  overflow: hidden;
 }
 
 .workProcess .gallery1 {
@@ -49,6 +50,7 @@
 .workProcess .item h3 {
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  transform: translatey(60px);
 }
 
 .workProcess .item strong {
@@ -62,8 +64,5 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   transition: 0.5s;
   display: inline-block;
-}
-
-.workProcess .item p:hover {
-  display: inline-block;
+  transform: translateX(400px);
 }
