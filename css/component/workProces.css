@@ -50,7 +50,8 @@
 .workProcess .item h3 {
   color: white;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  transform: translatey(60px);
+  transform: translateY(60px);
+  transition: 0.5s;
 }
 
 .workProcess .item strong {
