@@ -13,7 +13,7 @@ function disctioptionAnimatoin() {
     const moverHeader3 = document.querySelector('.workProcess .header3');
 
     container1.addEventListener("mouseout", function () {
-        tagleElement1.style.transform = "translateX(400px)";
+        tagleElement1.style.transform = "translateX(1000px)";
         moverHeader1.style.transform = "translateY(60px)"
     });
     container1.addEventListener("mouseover", function () {
@@ -21,7 +21,7 @@ function disctioptionAnimatoin() {
         moverHeader1.style.transform = "translateY(0px)"
     });
     container2.addEventListener("mouseout", function () {
-        tagleElement2.style.transform = "translateX(400px)";
+        tagleElement2.style.transform = "translateX(1000px)";
         moverHeader2.style.transform = "translateY(60px)"
     });
     container2.addEventListener("mouseover", function () {
@@ -29,7 +29,7 @@ function disctioptionAnimatoin() {
         moverHeader2.style.transform = "translateY(0)"
     });
     container3.addEventListener("mouseout", function () {
-        tagleElement3.style.transform = "translateX(400px)";
+        tagleElement3.style.transform = "translateX(1000px)";
         moverHeader3.style.transform = "translateY(60px)"
     });
     container3.addEventListener("mouseover", function () {
