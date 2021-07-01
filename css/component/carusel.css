@@ -1,0 +1,28 @@
+.carousel .header {
+  text-align: left;
+  color: white;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel .buttons {
+  text-align: right;
+  font-size: x-large;
+}
+
+.carousel button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  background-color: rgb(196, 189, 189);
+  border: none;
+  color: black;
+  box-shadow: 0 0 5px white;
+  margin-right: 25px;
+  cursor: pointer;
+}
+
+.carousel button:hover {
+  box-shadow: 0 0 8px gray;
+  background-color: gray;
+  color: white;
+}
