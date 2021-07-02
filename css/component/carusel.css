@@ -14,7 +14,7 @@
   padding: 10px 20px;
   border-radius: 10px;
   background-color: rgb(196, 189, 189);
-  border: none;
+  border: 1px solid black;
   color: black;
   box-shadow: 0 0 5px white;
   margin-right: 25px;
@@ -25,4 +25,31 @@
   box-shadow: 0 0 8px gray;
   background-color: gray;
   color: white;
+}
+
+/* bottom */
+
+.carousel .caruselContainer {
+  display: inline-block;
+  width: 100%;
+}
+
+.carousel .caruselContainer .gallery {
+  display: inline-block;
+  width: 100%;
+}
+
+.carousel .caruselContainer .item {
+  border: 2px solid white;
+  display: inline-block;
+}
+
+.carousel .caruselContainer .bg {
+  display: inline-block;
+  width: 100%;
+}
+
+.carousel .caruselContainer .title {
+  display: inline-block;
+  width: 100%;
 }
