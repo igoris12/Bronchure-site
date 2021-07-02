@@ -5,7 +5,11 @@ class CaruselInterfase {
 
     innerHTML() {
         const imgPath = this.data.imgPath + this.data.list.src;
-        return `CONTENT`
+        return `<div class="item">
+                        <div class="bg">
+                            <h3 class="title">header</h3>
+                        </div>
+                    </div>`
     };
 
 }
