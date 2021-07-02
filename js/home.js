@@ -4,7 +4,8 @@ import { data } from "./data/benefits.js"
 import { footerData } from "./data/footerData.js";
 import { disctioptionAnimatoin } from "./component/workProcess.js";
 import { CaruselInterfase } from "./component/caruselInterfase.js";
-import { Carusel1 } from "./data/carusel.js";
+import { CaruselData } from "./data/carusel.js";
+import { Carusel } from "./component/carusel.js";
 
 new Benefints(".benefits> .row", data);
 
@@ -12,4 +13,6 @@ new Footer(".footer .gallery", footerData)
 
 disctioptionAnimatoin()
 
-CaruselInterfase(Carusel1);
+new CaruselInterfase(CaruselData);
+
+new Carusel('.carousel .caruselContainer', CaruselInterfase, CaruselData)

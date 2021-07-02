@@ -1,4 +1,4 @@
-const Carusel1 = {
+const CaruselData = {
     imgPath: 'a',
     list: [
         {
@@ -59,4 +59,4 @@ const Carusel1 = {
 
 
 
-export { Carusel1 };
+export { CaruselData };
