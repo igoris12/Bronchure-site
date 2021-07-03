@@ -1,16 +1,16 @@
 class CaruselInterfase {
     constructor(data) {
         this.data = data;
-    };
+    }
 
-    innerHTML() {
-        const imgPath = this.data.imgPath + this.data.list.src;
+    learnHTML() {
+        const imgPath = this.data.imgPath + this.data.img
         return `<div class="item">
                         <div class="bg">
-                            <h3 class="title">header</h3>
+                            <h3 class="title">${this.data.title}</h3>
                         </div>
                     </div>`
-    };
+    }
 
 }
 
