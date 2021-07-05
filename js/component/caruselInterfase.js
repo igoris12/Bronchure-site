@@ -5,11 +5,11 @@ class CaruselInterfase {
 
     learnHTML() {
         const imgPath = this.data.imgPath + this.data.img
-        return `<div class="item">
+        return `
                         <div class="bg">
                             <h3 class="title">${this.data.title}</h3>
                         </div>
-                    </div>`
+                    `
     }
 
 }

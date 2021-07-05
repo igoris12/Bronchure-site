@@ -91,13 +91,9 @@ class Carusel {
                 <button class="rightArrw fa fa-angle-right"></button>
             </div>
                             <div class="gallery">
-                            <div class="item">
-                                <div class="bg">
                                     <div class="list" style="width: ${listWidth}%;);">
                                          ${this.generateItems(clonedData)}
                                     </div>
-                                </div>
-                            </div>
                         </div>
                             
                            `
@@ -163,15 +159,15 @@ class Carusel {
 
 
 
-        this.rightArrow.addEventListener('click', () => {
+        this.leftArrow.addEventListener('click', () => {
             if (!this.animationInProgress) {
                 this.animationInProgress = true;
-                this.visibleItemIndex++;
+                this.visibleItemIndex--;
                 this.carouselAnimarion();
-                if (this.data.list.length + this.itemsInScrean === this.visibleItemIndex) {
+                if (this.visibleItemIndex === 0) {
                     setTimeout(() => {
                         this.listDOM.style.transition = 'all 0s';
-                        this.visibleItemIndex = this.itemsInScrean;
+                        this.visibleItemIndex = this.data.list.length;
                         this.carouselAnimarion();
                     }, this.animationDuration);
                     setTimeout(() => {

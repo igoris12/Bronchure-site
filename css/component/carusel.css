@@ -37,11 +37,18 @@
 .carousel .caruselContainer .gallery {
   display: inline-block;
   width: 100%;
+  margin-top: 40px;
+  overflow: hidden;
+}
+.carousel .caruselContainer .list {
+  display: flex;
+  gap: 35px;
 }
 
 .carousel .caruselContainer .item {
   border: 2px solid white;
   display: inline-block;
+  background-color: orange;
 }
 
 .carousel .caruselContainer .bg {
