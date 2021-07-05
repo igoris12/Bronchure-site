@@ -29,42 +29,38 @@ const CaruselData = {
         },
         {
             minWidth: 1100,
-            itemsNumber: 3
+            itemsNumber: 5
         }],
     list: [
         {
-            src: 'mentoring.png',
-
-            title: '1-1 Mentoring',
-
-
+            src: 'server.png',
+            title: 'Stable servers',
         },
         {
-            src: '100online.png',
-
-            title: '100% online',
-
-
+            src: 'support.png',
+            title: 'Technical support ',
         },
         {
-            src: 'flexibleDeadline.png',
-
-            title: 'Flexible Deadline',
-
-
-        }, {
-            src: 'mentoring.png',
-
-            title: '1-1 Mentoring',
-
+            src: 'manitoring.png',
+            title: 'Full time monitoring',
         },
         {
-            src: 'projectReviews.png',
-
-            title: 'Project Reviews',
-
-
+            src: 'mashine.png',
+            title: 'Latest technical products',
         },
+        {
+            src: 'offer.png',
+            title: 'Best offer in market',
+        },
+        {
+            src: 'progress.png',
+            title: 'Ways to boost your progress',
+        },
+        {
+            src: 'automation.png',
+            title: 'Automatizate work process',
+        },
+
 
     ]
 }
