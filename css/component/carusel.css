@@ -65,6 +65,10 @@
   transition: 0.5s;
 }
 
+.carousel .caruselContainer .bg:hover {
+  background: rgba(17, 15, 15, 0.5);
+}
+
 .carousel .caruselContainer .title {
   display: inline-block;
   width: 100%;
