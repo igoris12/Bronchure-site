@@ -10,7 +10,7 @@ class Carusel {
         this.rightArrow = null;
         this.itemsInScrean = 1;
         this.animationInProgress = false;
-        this.animationDuration = 500;
+        this.animationDuration = 1000;
         this.visibleItemIndex = 0;
 
         this.init()
@@ -49,6 +49,7 @@ class Carusel {
     generateItems(data) {
         const itemsCount = data.length;
         const itmeWidth = 100 / itemsCount;
+
         let HTML = '';
 
         for (let i = 0; i < itemsCount; i++) {
@@ -56,12 +57,9 @@ class Carusel {
                 ...data[i],
                 imgPath: this.data.imgPath
             });
-
-
-            HTML += `<div class="item" style="width: ${itmeWidth}%;">
+            HTML += `<div class="item" style="width: ${itmeWidth}%; background-image: url(${this.data.imgPath + obj.data.src});">
             ${obj.learnHTML()}
             </div>`
-
         }
 
         return HTML;
@@ -84,7 +82,7 @@ class Carusel {
 
         const HTML = `   <div class="row">
             <div class="header col-12 col-md-7">
-                <h2> My work in progress</h2>
+                <h2>What we are offering</h2>
             </div>
             <div class="col-12 col-md-5 buttons">
                 <button class="leftArrw fa fa-angle-left"></button>

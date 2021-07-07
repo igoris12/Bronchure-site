@@ -1,5 +1,5 @@
 const CaruselData = {
-    imgPath: "/img/course-benefit-img/",
+    imgPath: "../../img/carusel/",
     itemsInScrean: [
         {
             minWidth: 0,
@@ -10,27 +10,10 @@ const CaruselData = {
             itemsNumber: 2
         },
         {
-            minWidth: 990,
-            itemsNumber: 3
-        },
-        {
             minWidth: 1100,
-            itemsNumber: 4
+            itemsNumber: 3
         }],
 
-    itemsInScrean: [
-        {
-            minWidth: 0,
-            itemsNumber: 1
-        },
-        {
-            minWidth: 880,
-            itemsNumber: 2
-        },
-        {
-            minWidth: 1100,
-            itemsNumber: 5
-        }],
     list: [
         {
             src: 'server.png',

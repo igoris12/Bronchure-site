@@ -8,8 +8,7 @@ class CaruselInterfase {
         return `
                         <div class="bg">
                             <h3 class="title">${this.data.title}</h3>
-                        </div>
-                    `
+                        </div>`
     }
 
 }
