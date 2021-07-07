@@ -3,6 +3,8 @@
   color: white;
   font-size: x-large;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  word-break: break-word;
+  margin-bottom: 20px;
 }
 
 .carousel .buttons {
@@ -44,6 +46,7 @@
   display: flex;
   gap: 35px;
   transition: 1s;
+  padding: 10px;
 }
 
 .carousel .caruselContainer .item {
@@ -55,6 +58,11 @@
   background-position: center;
   border-radius: 20px;
   overflow: hidden;
+  transition: 0.5s;
+}
+
+.carousel .caruselContainer .item:hover {
+  box-shadow: 0px 0px 5px 3px gray;
 }
 
 .carousel .caruselContainer .bg {
@@ -71,8 +79,23 @@
 
 .carousel .caruselContainer .title {
   display: inline-block;
+  font-size: 23px;
+  font-weight: bolder;
+  letter-spacing: 1px;
   width: 100%;
   color: white;
   transition: 0.5s;
-  transform: translateY(100px);
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 10px;
+  word-break: break-word;
+}
+
+.carousel .caruselContainer .discrioption {
+  padding: 15px;
+  color: white;
+  font-size: 20px;
+  transition: 0.5s;
+  letter-spacing: 1px;
+  word-break: break-word;
 }
