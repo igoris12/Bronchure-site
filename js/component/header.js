@@ -1,15 +1,17 @@
 
-
+const nav = document.querySelector('header')
 window.addEventListener('scroll', function () {
 
-    let scrollY = Math.round(window.scrollY)
 
-    console.log(scrollY);
+    if (this.window.pageYOffset > 50) {
+        nav.style.padding = '0'
+    } else {
+        nav.style.padding = '10px'
+    }
+
+
+
+
+
 })
 
-// function scrollHeader() {
-
-//     if (window.scrollY = 300) {
-//         console.log('sss');
-//     }
-// }
