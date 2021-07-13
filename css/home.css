@@ -11,6 +11,10 @@
 @import './component/header.css';
 /* custom */
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: rgb(93, 85, 85);
   background: linear-gradient(
@@ -18,7 +22,6 @@ body {
     rgba(93, 85, 85, 1) 23%,
     rgba(35, 33, 46, 1) 70%
   );
-  scroll-behavior: smooth;
 }
 
 /* header start */
