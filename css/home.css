@@ -8,7 +8,12 @@
 @import './component/footer.css';
 @import './component/workProces.css';
 @import './component/carusel.css';
+@import './component/header.css';
 /* custom */
+
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   background: rgb(93, 85, 85);
@@ -20,63 +25,6 @@ body {
 }
 
 /* header start */
-header {
-  background-color: red;
-  height: 80px;
-}
-.header .logo {
-  width: 200px;
-  height: 80px;
-  display: inline-block;
-  object-fit: cover;
-  margin-left: 30px;
-}
-
-.header nav {
-  background-color: rgb(255, 230, 0);
-  text-align: right;
-  display: inline-block;
-  float: right;
-  margin-top: 30px;
-}
-
-.header nav a {
-  font-size: 25px;
-  margin-right: 15px;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-
-.header .taggleHeader {
-  display: inline-block;
-  display: none;
-  margin-right: 20px;
-  cursor: pointer;
-}
-
-.header .taggleHeader span {
-  background: black;
-  width: 30px;
-  height: 4px;
-  margin-bottom: 5px;
-  display: block;
-}
-
-@media (max-width: 1050px) {
-  .header nav a {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 700px) {
-  .header nav a {
-    display: none;
-  }
-
-  .header .taggleHeader {
-    display: inline-block;
-  }
-}
-
 /* header end */
 
 /* info start */
