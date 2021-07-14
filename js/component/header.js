@@ -15,7 +15,18 @@ window.addEventListener('scroll', function () {
 const hiddenNav = document.getElementById('hiddenNav')
 const haburger = document.getElementById('taggleHeader')
 
-haburger.addEventListener('click', () => {
-    console.log(hiddenNav.style.display);
-})
 
+
+
+haburger.addEventListener('click', () => {
+
+
+    if (hiddenNav.style.display == 'none') {
+        hiddenNav.style.display = 'inline-block'
+
+    } else {
+        hiddenNav.style.display = 'none'
+    }
+
+
+})

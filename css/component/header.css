@@ -71,7 +71,7 @@ header {
 /* mobille version */
 
 .hiddenNav {
-  display: inline-block;
+  display: none;
 }
 
 .hiddenNav nav {
@@ -90,4 +90,10 @@ header {
 
 .hiddenNav nav a:hover {
   color: gray;
+}
+
+@media (min-width: 820px) {
+  .hiddenNav {
+    display: none;
+  }
 }
