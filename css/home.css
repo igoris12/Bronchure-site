@@ -24,7 +24,21 @@ body {
   );
 }
 
+/* common */
+.contentHeader {
+  display: inline-block;
+  text-align: left;
+  color: white;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  word-break: break-word;
+  margin-bottom: 20px;
+  width: 100%;
+}
+/* common */
+
 /* header start */
+
 /* header end */
 
 /* info start */
@@ -34,14 +48,6 @@ body {
 
 .infoContainer .leftColume {
   margin-bottom: 30px;
-}
-
-.infoContainer .leftColume span {
-  font-size: larger;
-  font-weight: 700;
-  font-size: 25px;
-  color: beige;
-  word-break: break-word;
 }
 
 .infoContainer p {
@@ -72,7 +78,16 @@ body {
 /* header end */
 
 /*work start */
-
+.workProcess .contentHeader {
+  display: inline-block;
+  text-align: left;
+  color: white;
+  font-size: x-large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  word-break: break-word;
+  margin-bottom: 20px;
+  width: 100%;
+}
 /*work  end */
 
 /* footer start */

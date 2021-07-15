@@ -21,7 +21,7 @@ class Benefints {
                     </div>`
         }
 
-        this.DOM.innerHTML = HTML;
+        this.DOM.innerHTML += HTML;
     }
 
 
