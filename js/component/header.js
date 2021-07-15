@@ -20,7 +20,6 @@ const haburger = document.getElementById('taggleHeader')
 
 haburger.addEventListener('click', () => {
 
-
     if (hiddenNav.style.display == 'none') {
         hiddenNav.style.display = 'inline-block'
 

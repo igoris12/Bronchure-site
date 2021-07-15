@@ -8,7 +8,7 @@ import { CaruselData } from "./data/carusel.js";
 import { Carusel } from "./component/carusel.js";
 
 
-new Benefints(".benefits> .row", data);
+new Benefints(".benefits > #content", data);
 
 new Footer(".footer .gallery", footerData)
 
