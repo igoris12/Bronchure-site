@@ -99,3 +99,13 @@
   letter-spacing: 1px;
   word-break: break-word;
 }
+
+@media (max-width: 770px) {
+  .carousel .buttons {
+    text-align: center;
+  }
+
+  .carousel .header {
+    text-align: center;
+  }
+}
