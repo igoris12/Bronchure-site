@@ -1,5 +1,5 @@
 const CaruselData = {
-    imgPath: "../../img/carusel/",
+    imgPath: "img/carusel/",
     itemsInScrean: [
         {
             minWidth: 0,
